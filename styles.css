@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.box {
+    background-color: rgb(170, 170, 170);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.city {
+    text-align: center;
+}
+
+button {
+    outline: none;
+    border-radius: 40%;
+    margin: 10px;
+    padding: .3em;
+}
+
+.searching {
+    padding: 0.6em;
+}
